@@ -36,7 +36,7 @@ function thumb($obj) {
 		$thumb = $attach->url;
 	}else{
 
-		$thumb = '/usr/themes/echo/img/'.rand(0, 9).'.png';
+		$thumb = '/usr/themes/Dawn/img/article/'.rand(0, 9).'.png';
 	}
 	return $thumb;
 }

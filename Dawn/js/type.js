@@ -654,10 +654,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      self.isPaused = false;
 	
           // input strings of text 有一说一,这轮子是真的不行
-        //   self.strings  = Array.prototype.map(function(s){
-	    //     return s.trim();
-        //   },self.options.strings)
-        self.strings  = self.options.strings
+	      self.strings = self.options.strings.map(function (s) {
+	        return s.trim();
+	      });
+	
+        // self.strings  = self.options.strings
 	      // div containing strings
 	      if (typeof self.options.stringsElement === 'string') {
 	        self.stringsElement = document.querySelector(self.options.stringsElement);

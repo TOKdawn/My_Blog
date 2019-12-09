@@ -1,7 +1,7 @@
 <?php
 /**
  * 基于Echo主题进行二次开发
- * @package Echo
+ * @package Dawn
  * @author TOKdawn
  * @version 1.0
  * @link https://github.com/TOKdawn/My_Blog

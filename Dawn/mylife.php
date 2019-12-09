@@ -111,7 +111,8 @@ echo $commentClass;
     </div>
 </div>
 
-<script type="text/javascript" src="https://cdn.bootcss.com/typed.js/2.0.5/typed.js"></script>
+<!-- <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/2.0.5/typed.js"></script> -->
+<script src="<?php $this->options->themeUrl('js/type.js'); ?>"></script>
 <script>
     var dawnSay = [
         ['我很好奇!!!'],
