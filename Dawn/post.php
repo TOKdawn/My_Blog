@@ -24,7 +24,7 @@
                 <?php $this->content(); ?>
             </div>
             <div class="tags-text">
-                <i class="layui-icon">&#xe66e;</i><?php _e('标签: '); ?><?php $this->tags(', ', true, 'none'); ?>
+                <i class="layui-icon">&#xe66e;</i>&nbsp; <?php _e('标签: '); ?><?php $this->tags(', ', true, 'none'); ?>
             </div>
             <div class="copy-text">
                 <div>

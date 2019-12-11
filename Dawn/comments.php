@@ -70,15 +70,15 @@ echo $commentClass;
                     </div>
                 </div>
                 <div class="layui-form-item">
-                    <textarea rows="5" cols="30" name="text" id="textarea" placeholder="嘿~ 大神，别默默的看了，快来点评一下吧" class="layui-textarea" required></textarea>
+                    <textarea rows="5" cols="30" name="text" id="textarea" placeholder="要传达的和传达不到的是些什么呢(,,•́ . •̀,,)" class="layui-textarea" required></textarea>
                 </div>
                 <?php else: ?>
                 <div class="layui-form-item">
-                    <textarea rows="5" cols="30" name="text" id="textarea" placeholder="嘿~ 大神，别默默的看了，快来点评一下吧" class="layui-textarea" required></textarea>
+                    <textarea rows="5" cols="30" name="text" id="textarea" placeholder="要传达的和传达不到的是些什么呢(,,•́ . •̀,,)" class="layui-textarea" required></textarea>
                 </div>
                 <div class="layui-form-item layui-row layui-col-space5">
                     <div class="layui-col-md4">
-                        <input type="text" name="author" id="author" class="layui-input" placeholder="* 怎么称呼" value="<?php $this->remember('author'); ?>" required />
+                        <input type="text" name="author" id="author" class="layui-input" placeholder="昵称" value="<?php $this->remember('author'); ?>" required />
                     </div>
                     <div class="layui-col-md4">
                         <input type="email" name="mail" id="mail" lay-verify="email" class="layui-input" placeholder="<?php if ($this->options->commentsRequireMail): ?>* <?php endif; ?>邮箱(放心~会保密~.~)" value="<?php $this->remember('mail'); ?>" <?php if ($this->options->commentsRequireMail): ?>required<?php endif; ?> />
@@ -89,7 +89,7 @@ echo $commentClass;
                 </div>
                 <?php endif; ?>
                 <div class="layui-inline">
-                    <button type="submit" class="layui-btn layui-btn-normal"><?php _e('提交评论'); ?></button>
+                    <button type="submit" class="layui-btn layui-btn-normal"><?php _e('发射  ╰(●’◡’●)╮'); ?></button>
                 </div>
             </form>
         </div>
