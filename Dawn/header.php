@@ -18,6 +18,7 @@
     <link rel="shortcut icon" href="<?php $this->options->themeUrl('img/favicon.ico'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('layui/css/layui.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/style.css'); ?>?t=<?php echo time(); ?>">
+    <link href='http://cdn.repository.webfont.com/webfonts/nomal/117113/48172/5df1a748f629d80e381b733a.css' rel='stylesheet' type='text/css' />
     <script src="<?php $this->options->themeUrl('layui/layui.js'); ?>"></script>
     <script src="<?php $this->options->themeUrl('js/main.js'); ?>"></script>
     <script>
