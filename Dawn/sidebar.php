@@ -44,7 +44,7 @@
             </div>
     </div>
     <div class="link">
-        <h3 class="title-sidebar"><i class="layui-icon">&#xe64c;</i>友情链接<a style="float: right;color: #666;" href="#">申请</a></h3>
+        <h3 class="title-sidebar"><i class="layui-icon">&#xe64c;</i>友情链接<a style="float: right;color: #666;" href="">申请</a></h3>
         <div>
         </div>
     </div>
